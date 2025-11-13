@@ -68,29 +68,39 @@
         <p class="section__text__p2">JavaScript Developer</p>
 
         <div class="btn-container">
-         
-
           <div class="btn-container">
-  <a href="https://drive.google.com/file/d/1ExulO9QENtrdEI08ak7-boXWt0UTXq4y/view" target="_blank" class="btn btn-color-2">Download CV</a>
-</div>
+            <a
+              href="https://drive.google.com/file/d/1ExulO9QENtrdEI08ak7-boXWt0UTXq4y/view"
+              target="_blank"
+              class="btn btn-color-2"
+              >Download CV</a
+            >
+          </div>
 
           <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
 
-       <div id="socials-container" class="socials">
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/vijay-shah-12545b348/" target="_blank" title="LinkedIn Profile">
-    <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" />
-  </a>
+        <div id="socials-container" class="socials">
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/vijay-shah-12545b348/"
+            target="_blank"
+            title="LinkedIn Profile"
+          >
+            <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" />
+          </a>
 
-  <!-- GitHub -->
-  <a href="https://github.com/vijayshah0502" target="_blank" title="GitHub Profile">
-    <img src="./assets/github.png" alt="GitHub" class="icon" />
-  </a>
-</div>
-
+          <!-- GitHub -->
+          <a
+            href="https://github.com/vijayshah0502"
+            target="_blank"
+            title="GitHub Profile"
+          >
+            <img src="./assets/github.png" alt="GitHub" class="icon" />
+          </a>
+        </div>
       </div>
     </section>
 
@@ -133,11 +143,13 @@
 
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti
-              dignissimos.
+              Hey there! I'm Vijay Shah, a Computer Science graduate who loves
+              building things for the web. I've completed a 6-month internship
+              in web development and worked with JavaScript, React, Node.js,
+              Python, and MySQL. Right now, I'm learning the MERN Stack to grow
+              as a full-stack developer. I enjoy turning ideas into real,
+              user-friendly web apps and I'm always excited to learn something
+              new every day.
             </p>
           </div>
         </div>
@@ -377,7 +389,9 @@
             class="icon contact-icon email-icon"
           />
           <!-- Replace REPLACE_WITH_YOUR_EMAIL with your email -->
-          <p><a href="mailto:vijayshah0502@gmail.com">vijayshah0502@gmail.com</a></p>
+          <p>
+            <a href="mailto:vijayshah0502@gmail.com">vijayshah0502@gmail.com</a>
+          </p>
         </div>
 
         <div class="contact-info-container">
@@ -387,7 +401,14 @@
             class="icon contact-icon"
           />
           <!-- Replace REPLACE_WITH_LINKEDIN_URL with your LinkedIn profile -->
-          <p><a href="https://www.linkedin.com/in/vijay-shah-12545b348/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/vijay-shah-12545b348/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
@@ -405,22 +426,25 @@
         </div>
       </nav>
 
-      <p>Copyright &#169; <span id="year"></span> Vijay Shah. All Rights Reserved.</p>
+      <p>
+        Copyright &#169; <span id="year"></span> Vijay Shah. All Rights
+        Reserved.
+      </p>
     </footer>
 
     <!-- SCRIPT -->
     <script>
       // Simple menu toggle for mobile
       function toggleMenu() {
-        const menu = document.getElementById('mobileMenu');
+        const menu = document.getElementById("mobileMenu");
         if (!menu) return;
-        const isHidden = menu.getAttribute('aria-hidden') === 'true';
-        menu.setAttribute('aria-hidden', String(!isHidden));
-        menu.classList.toggle('open'); // style .open in CSS to show
+        const isHidden = menu.getAttribute("aria-hidden") === "true";
+        menu.setAttribute("aria-hidden", String(!isHidden));
+        menu.classList.toggle("open"); // style .open in CSS to show
       }
 
       // Set current year in footer
-      document.getElementById('year').textContent = new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
